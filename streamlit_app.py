@@ -34,7 +34,7 @@ def main():
     topic = text_formatter.format_text(topic)
 
     mov = None
-    if category == "Promotion"s:
+    if category == "Promotion":
         mov = st.text_input("Specify the `Minimum Order Value`")
         mov = text_formatter.format_text(mov)
 
